@@ -1,0 +1,36 @@
+GET HTTP://localhost:8080/api/produto
+
+###
+
+GET HTTP://localhost:8080/api/produto/4
+
+###
+
+POST HTTP://localhost:8080/api/produto
+Content-Type: application/json
+
+{
+    "descricao" : "Camisa Social",
+    "dataFabricacao" : "2023-12-21T00:00:00",
+    "valor" : 40.0,
+    "medida" : "KILOS",
+    "observacao" : "Cor branca"
+
+}
+
+###
+
+PUT HTTP://localhost:8080/api/produto/3
+Content-Type: application/json
+
+{
+    "descricao" : "Camisa Social",
+    "dataFabricacao" : "2023-12-25T00:00:00",
+    "valor" : 20.0,
+    "medida" : "GRAMAS",
+    "observacao" : "Cor branca. Atualizado"
+}
+
+###
+
+DELETE HTTP://localhost:8080/api/produto/2

@@ -1,0 +1,14 @@
+GET HTTP://localhost:8080/api/categoria
+
+###
+
+GET HTTP://localhost:8080/api/categoria/1
+
+###
+
+POST HTTP://localhost:8080/api/categoria
+Content-Type: application/json
+
+{
+    "descricao": "Malha Portuguesa"
+}

@@ -1,0 +1,18 @@
+GET HTTP://localhost:8080/api/produtos
+
+###
+
+GET HTTP://localhost:8080/api/produtos/1
+
+###
+
+POST HTTP://localhost:8080/api/produtos
+Content-Type: application/json
+
+{
+    "origem": "Importada",
+    "categoria":{
+        "id": 2
+    }
+
+}
